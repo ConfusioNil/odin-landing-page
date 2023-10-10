@@ -3,4 +3,5 @@ A Project assignment from the Odin Project to create a website using html and cs
 Method:
 
 Add all html elements I see on the png.
-Add flex and make the header and footer not growable.
+Add basic flex containers to the html I just added by making their direction as a column
+Add flex and make the header and footer not growable, why the others are.
