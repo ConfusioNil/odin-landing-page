@@ -17,3 +17,29 @@ body {
     justify-content: space-evenly;
     gap: 20px
 }
+
+.main-body {
+    flex: 1;
+}
+
+.introduction {
+    display: flex;
+    flex: 1;
+    background-color: #590059;
+    color: beige;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.introduction div {
+    width: 300px;
+}
+
+button {
+    background-color: cornflowerblue;
+    border: 0px;
+    padding: 10px 20px;
+    border-radius: 10%;
+    color: beige;
+}
