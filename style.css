@@ -1,5 +1,4 @@
-body {
-    display: flex;
+body {   
     flex-direction: column;
     align-items: space-between;
     margin: 0px;
@@ -30,6 +29,7 @@ body {
     align-items: center;
     justify-content: space-around;
     padding-bottom: 10px;
+    flex-direction: row;
 }
 
 .introduction div {
@@ -42,4 +42,35 @@ button {
     padding: 10px 20px;
     border-radius: 10%;
     color: beige;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.main-content div {
+    display: flex;
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+    align-items: center;
+}
+
+.cards img {
+    width: 100px;
+    height: 150px;
+    border-color: blue;
+    border-width: 5px;
+    border-radius: 15px;
+    border-style: groove;
 }
