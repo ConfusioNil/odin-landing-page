@@ -96,3 +96,27 @@ button {
     font-weight: bolder;
     color: #30af30;;
 }
+
+.call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.action-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: cornflowerblue;    
+    color: beige;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 10px;
+    gap: 50px;
+}
+
+.action-box button {
+    border-width: 1px;
+    border-style: groove;
+    border-color: beige;
+}
