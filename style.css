@@ -120,3 +120,14 @@ button {
     border-style: groove;
     border-color: beige;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #590059;
+    color: beige;    
+}
+
+.footer p {
+    text-align: center;
+}
