@@ -57,7 +57,6 @@ button {
     display: flex;
 }
 
-
 .cards {
     display: flex;
     flex-direction: column;
@@ -73,4 +72,27 @@ button {
     border-width: 5px;
     border-radius: 15px;
     border-style: groove;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7fffd4;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+
+.quote h4 {
+    width: 400px;
+    font-size: larger;
+    font-style: italic;
+    color: #005f00;
+}
+
+.quote p {
+    display: flex;
+    justify-content: end;
+    font-weight: bolder;
+    color: #30af30;;
 }
